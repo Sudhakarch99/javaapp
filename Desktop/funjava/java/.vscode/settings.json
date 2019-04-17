@@ -1,0 +1,15 @@
+{
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "Java",
+  "azureFunctions.templateFilter": "Verified",
+  "azureFunctions.deploySubpath": "target/azure-functions/getpass-1552934458995/",
+  "azureFunctions.preDeployTask": "package",
+  "debug.internalConsoleOptions": "neverOpen",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

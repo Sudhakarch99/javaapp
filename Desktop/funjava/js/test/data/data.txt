@@ -1,0 +1,4 @@
+{"modified":"","docType":"applepass","id":"IDNEW1","serialNumber":"SERIALNEW1","passFields":[{"key":"nm","label":"Name"}],"_id":"PKre1k2sE3AEy55Y", devices:
+                                                                                                                                                       [ { deviceId: '1f0b5c5119f357f26a6fe84213865817',
+                                                                                                                                                           pushToken: 'e64685e4265fd3f290ed78925cfd9d2f15996562da933d75e7547ada5e9e0dbf',
+                                                                                                                                                           active: true }]}

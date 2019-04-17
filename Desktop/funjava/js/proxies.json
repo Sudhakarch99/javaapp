@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "getPass": {
+      "matchCondition": {
+        "route": "applepass/v1/passes/pass.org.hphc.idcard/*"
+      },
+      "backendUri": "https://hphc-passkit1.azurewebsites.net/api/applepass/v1/passes/pass.org.hphc.idcard/{passSerialNumber}"
+    }
+  }
+
+  
+}

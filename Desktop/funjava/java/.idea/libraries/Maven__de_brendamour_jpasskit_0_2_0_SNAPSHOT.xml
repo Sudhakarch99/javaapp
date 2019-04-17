@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: de.brendamour:jpasskit:0.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/brendamour/jpasskit/0.2.0-SNAPSHOT/jpasskit-0.2.0-20190316.193302-16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/de/brendamour/jpasskit/0.2.0-SNAPSHOT/jpasskit-0.2.0-20190316.193302-16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/brendamour/jpasskit/0.2.0-SNAPSHOT/jpasskit-0.2.0-20190316.193302-16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

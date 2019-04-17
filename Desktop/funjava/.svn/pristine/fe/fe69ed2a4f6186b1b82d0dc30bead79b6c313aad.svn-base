@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "post"
+      ],
+      "route": "applepass/v1/log"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "databaseName": "hphc-poc-cosmo1",
+      "collectionName": "cosmo-coll1",
+      "createIfNotExists": true,
+      "connectionStringSetting": "hphc-poc-passkit-db_DOCUMENTDB",
+      "direction": "out"
+    }
+  ]
+}

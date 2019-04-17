@@ -1,0 +1,6 @@
+org\hphc\poc\passkit\function\Dummy.class
+org\hphc\poc\passkit\function\pojo\Pass.class
+org\hphc\poc\passkit\function\SaveNewPass.class
+org\hphc\poc\passkit\function\GetPass.class
+org\hphc\poc\passkit\function\service\PasskitService.class
+org\hphc\poc\passkit\function\pojo\HPHCPassField.class

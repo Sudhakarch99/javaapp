@@ -1,0 +1,40 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "delete"
+      ],
+      "route": "applepass/v1/devices/{deviceId}/registrations/pass.org.hphc.idcard/{passSerialNumber}"
+      
+    },
+    
+    {
+      "type": "cosmosDB",
+      "name": "inputDocument",
+      "databaseName": "hphc-poc-cosmo1",
+      "collectionName": "cosmo-coll1",
+      "connectionStringSetting": "hphc-poc-passkit-db_DOCUMENTDB",
+      "direction": "in",
+      "sqlQuery": "SELECT * FROM userPass WHERE userPass.docType = 'applepass' AND userPass.serialNumber = {passSerialNumber}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "databaseName": "hphc-poc-cosmo1",
+      "collectionName": "cosmo-coll1",
+      "connectionStringSetting": "hphc-poc-passkit-db_DOCUMENTDB",
+      "direction": "out",
+      "createIfNotExists": false
+    }
+  ]
+}

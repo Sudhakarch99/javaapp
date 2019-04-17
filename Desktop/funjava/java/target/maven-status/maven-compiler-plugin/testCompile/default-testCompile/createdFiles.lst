@@ -1,0 +1,4 @@
+org\hphc\poc\passkit\function\FunctionTest.class
+org\hphc\poc\passkit\function\HttpResponseMessageMock.class
+org\hphc\poc\passkit\function\FunctionTest$1.class
+org\hphc\poc\passkit\function\HttpResponseMessageMock$HttpResponseMessageBuilderMock.class

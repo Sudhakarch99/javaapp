@@ -1,0 +1,13 @@
+.git*
+.vscode
+local.settings.json
+test
+package-*.json
+app.js
+.idea
+node_modules
+public
+routes
+views
+*.iml
+.svn
